@@ -14,9 +14,11 @@ import MyMovies from "../../mainExternalApp/myMovies/mainMyMovies";
 import meteo from "../../img/cloudy.png";
 import news from "../../img/newspaper.png";
 import java from "../../img/java.png";
+import Java from "../../components/codewarJava/javaCodeWars";
 import python from "../../img/file.png";
 import cmd from "../../img/command-line.png";
 import Meteo from "../../components/weather/weatherCom";
+import News from "../../components/news/newsSection";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -80,8 +82,8 @@ export default function FullWidthGrid(props) {
             }
             dialogTre={
               <DialogR
-                contenuto={<Timezone />}
-                title={"Time zone"}
+                contenuto={<News news={props.news} />}
+                title={"news"}
                 icon={news}
               />
             }
@@ -89,7 +91,13 @@ export default function FullWidthGrid(props) {
 
           <SystemGrid
             dialogUno={
-              <DialogR contenuto={<Timer />} title={"Timer"} icon={java} />
+              <DialogR
+                contenuto={<Java />}
+                title={"Java"}
+                icon={java}
+                url={"https://www.codewars.com/users/Restorm12/badges/large"}
+                flag={true}
+              />
             }
             dialogDue={
               <DialogR contenuto={<Timer />} title={"Timer"} icon={cmd} />

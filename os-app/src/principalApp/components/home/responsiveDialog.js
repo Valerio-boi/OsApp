@@ -20,6 +20,14 @@ export default function ResponsiveDialog(props) {
     setOpen(true);
   };
 
+  const viewBadge = () => {
+    if (props.flag) {
+      return <img src={props.url} alt="CodeWars" />;
+    } else {
+      return "";
+    }
+  };
+
   const handleClose = () => {
     setOpen(false);
   };
@@ -59,6 +67,7 @@ export default function ResponsiveDialog(props) {
           >
             <CloseRoundedIcon />
           </Button>
+          {viewBadge()}
         </DialogTitle>
         <DialogContent>
           <DialogContentText>{props.contenuto}</DialogContentText>
