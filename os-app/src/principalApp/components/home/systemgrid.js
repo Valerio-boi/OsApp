@@ -3,7 +3,7 @@ import Grid from "@material-ui/core/Grid";
 
 export default function GridComponent(props) {
   return (
-    <Grid container spacing={3} style={{ padding: "30px" }}>
+    <Grid container spacing={3} style={{ padding: "30px", textAlign: 'center' }}>
       <Grid item xs>
         {props.dialogUno}
       </Grid>

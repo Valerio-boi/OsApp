@@ -7,6 +7,7 @@ import calcolatrice from "../../img/calcolatrice.png";
 import timer from "../../img/chronometer.png";
 import SystemGrid from "./systemgrid";
 import Timer from "../timer/timer";
+import GoogleMaps from '../../components/maps/components/googleMap'
 import fusiOrari from "../../img//time-zone.png";
 import Timezone from "../../mainExternalApp/fusoOrario/principal";
 import cinema from "../../img/movie.png";
@@ -16,9 +17,11 @@ import news from "../../img/newspaper.png";
 import java from "../../img/java.png";
 import Java from "../../components/codewarJava/javaCodeWars";
 import python from "../../img/file.png";
-import cmd from "../../img/command-line.png";
+import Python from "../../components/codewarPython/pythonCodeWar"
+import maps from "../../img/map.png";
 import Meteo from "../../components/weather/weatherCom";
 import News from "../../components/news/newsSection";
+import FulDialog from '../../components/home/fullDialog'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -100,13 +103,15 @@ export default function FullWidthGrid(props) {
               />
             }
             dialogDue={
-              <DialogR contenuto={<Timer />} title={"Timer"} icon={cmd} />
+              <FulDialog contenuto={<GoogleMaps />} title={"Maps"} icon={maps} />
             }
             dialogTre={
               <DialogR
-                contenuto={<Timezone />}
+                contenuto={<Python />}
                 title={"Time zone"}
                 icon={python}
+                url={"https://www.codewars.com/users/Restorm12/badges/large"}
+                flag={true}
               />
             }
           />
@@ -115,26 +120,14 @@ export default function FullWidthGrid(props) {
 
       <Grid container spacing={2}>
         <Grid item xs>
-          <div
-            style={{
-              bottom: "-50px",
-              position: "relative",
-              textAlign: "center",
-            }}
-          >
-            {props.link}
-          </div>
-          <div
-            style={{
-              textAlign: "right",
-              color: "#e0e0e0",
-              fontFamily: "fantasy",
-              bottom: "-50px",
-              position: "relative",
-            }}
-          >
+
+
+        </Grid>
+        <Grid item xs style={{textAlign: 'center'}}>
+          {props.link}
+        </Grid>
+        <Grid item xs>
             {props.clock}
-          </div>
         </Grid>
       </Grid>
     </div>

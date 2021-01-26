@@ -46,9 +46,13 @@ export default function CustomizedTimeline() {
               Dipendente a tempo pieno.
             </Typography>
             <Typography>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam.
+              Exolab S.R.L
+              <ul>
+                <li>sviluppo software Java.</li>
+                <li>Ambienti di sviluppo: Eclipse, Visual Studio code.</li>
+                <li> Framework: JSF.</li>
+                <li>WEB: bootstrap, JQuery, Css, React.</li>
+              </ul>
             </Typography>
           </Paper>
         </TimelineContent>
@@ -71,7 +75,7 @@ export default function CustomizedTimeline() {
               Stage junior Java Developer
             </Typography>
             <Typography>
-              BDurante lo stage ho avuto modo di approfondire gli argomenti
+              Durante lo stage ho avuto modo di approfondire gli argomenti
               trattati al corso, e avere la possibilità di lavorare nei vari
               progetti aziendali, assumendo confidenza con JSF, Oracle, Mybatis,
               PrimeFaces, RestFul, Servizi soap, git, Java ee, Json, Xml.

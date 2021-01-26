@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 
 const APIKEY = "4175977b";
-const APIURL = "http://www.omdbapi.com";
+const APIURL = "https://cors-anywhere.herokuapp.com/http://www.omdbapi.com";
 
 const Dialog = (props) => {
   const [show, setShow] = useState(false);

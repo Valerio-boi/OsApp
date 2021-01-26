@@ -21,6 +21,13 @@
   color: #61dafb;
 }
 
+.MuiDialogContent-root {
+  flex: 1 1 auto;
+  padding: 8px 0px!important;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

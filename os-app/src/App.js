@@ -9,7 +9,7 @@ function App() {
   const urlWeather =
     "https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q=Roma,it&units=metric&lang=it&appid=4f188f6387e39a4dbabd5d915e951903";
   const urlNews =
-    "https://gnews.io/api/v3/search?lang=it&q=attualita&token=e9b0f9bef2ec016a61cc79709850f61";
+    "https://gnews.io/api/v3/search?lang=it&q=attualita&token=e9b0f9bef2ec016a61cc797098150f61";
 
   const [weather, setWeather] = useState({});
   const [news, setNews] = useState([]);

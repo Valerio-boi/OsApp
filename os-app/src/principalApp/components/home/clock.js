@@ -22,8 +22,8 @@ export default function Clock() {
   }, []);
 
   return (
-    <h1>
-      <QueryBuilderRoundedIcon /> {data.toLocaleTimeString()}{" "}
-    </h1>
+    <>
+      <text style={{float: 'right', WebkitTextStrokeWidth: 'medium', fontSize: '2.5rem', color: '#e0e0e0', position: 'relative', bottom: '-80px'}}><QueryBuilderRoundedIcon /> {data.toLocaleTimeString()}{" "}</text>  
+    </>
   );
 }

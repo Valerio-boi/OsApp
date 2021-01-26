@@ -39,7 +39,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/55ca77fa094a2af31f00002a">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/GrasshopperMessiGoals.java">
               Grasshopper - Messi Goals
             </a>
           </td>
@@ -53,7 +53,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/577ff15ad648a14b780000e7">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/Welcome.java">
               Welcome!
             </a>
           </td>
@@ -67,7 +67,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/5265326f5fda8eb1160004c8">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/ConvertAnumberToAstring.java">
               Convert a Number to a String!
             </a>
           </td>
@@ -81,7 +81,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/53da3dbb4a5168369a0000fe">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/EvenorOdd.java">
               Even or Odd
             </a>
           </td>
@@ -95,7 +95,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/55c0a79e20be94c91400014b">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/PlayingwithcubesI.java">
               Playing with cubes I
             </a>
           </td>
@@ -109,7 +109,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/55d24f55d7dd296eb9000030">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/GrasshopperSummation.java">
               Grasshopper - Summation
             </a>
           </td>
@@ -123,7 +123,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/5583090cbe83f4fd8c000051">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/ConvertNumberToReversedArrayOfDigits.java">
               Convert number to reversed array of digits
             </a>
           </td>
@@ -137,7 +137,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/RemoveFirstAndLastCharacter.java">
               Remove First and Last Character
             </a>
           </td>
@@ -151,7 +151,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/50ee6b0bdeab583673000025">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/BasicVariableAssignment.java">
               Basic variable assignment
             </a>
           </td>
@@ -165,7 +165,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/56f173a35b91399a05000cb7">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/SquashTheBugs.java">
               Squash the bugs
             </a>
           </td>
@@ -179,7 +179,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/53369039d7ab3ac506000467">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/ConvertBooleanValuesToStringsYesOrNo.java">
               Convert boolean values to strings 'Yes' or 'No'.
             </a>
           </td>
@@ -193,7 +193,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/50654ddff44f800200000004">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/Multiply.java">
               Multiply
             </a>
           </td>
@@ -207,7 +207,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/57eae20f5500ad98e50002c5">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/RemoveStringSpaces.java">
               Remove String Spaces
             </a>
           </td>
@@ -221,7 +221,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/582cb0224e56e068d800003c">
+            <a href="https://github.com/Valerio-boi/Codewars/blob/master/Java/Keep%20Hydrated!/src/it/raffo/codewars/KeepHydrated.java">
               Keep Hydrated!
             </a>
           </td>
@@ -235,7 +235,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/535474308bb336c9980006f2">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/GreetMe.java">
               Greet Me
             </a>
           </td>
@@ -249,7 +249,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/5949481f86420f59480000e7">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/OddorEven.java">
               Odd or Even?
             </a>
           </td>
@@ -263,7 +263,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/59cfc000aeb2844d16000075">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/AlternateCapitalization.java">
               Alternate capitalization
             </a>
           </td>
@@ -277,7 +277,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/57e92812750fcc051800004d">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/HolidayVIILocalTalk.java">
               Holiday VII - Local Talk
             </a>
           </td>
@@ -291,7 +291,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/54ba84be607a92aa900000f1">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/Isograms.java">
               Isograms
             </a>
           </td>
@@ -305,7 +305,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/ShortestWord.java">
               Shortest Word
             </a>
           </td>
@@ -319,7 +319,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/54ff3102c1bad923760001f3">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/VowelCount.java">
               Vowel Count
             </a>
           </td>
@@ -333,7 +333,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/56606694ec01347ce800001b">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/Isthisatriangle.java">
               Is this a triangle?
             </a>
           </td>
@@ -347,7 +347,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/55f2b110f61eb01779000053">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/BeginnerSeries3SumOfNumbers.java">
               Beginner Series #3 Sum of Numbers
             </a>
           </td>
@@ -361,7 +361,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/5467e4d82edf8bbf40000155">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/DescendingOrder.java">
               Descending Order
             </a>
           </td>
@@ -375,7 +375,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/515de9ae9dcfc28eb6000001">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/SplitStrings.java">
               Split Strings
             </a>
           </td>
@@ -389,7 +389,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/55c45be3b2079eccff00010f">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/YourOrderPlease.java">
               Your order, please
             </a>
           </td>
@@ -403,7 +403,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/5208f99aee097e6552000148">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/BreakCamelCase.java">
               Break camelCase
             </a>
           </td>
@@ -417,7 +417,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/5340298112fa30e786000688">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/Differenceof2.java">
               Difference of 2
             </a>
           </td>
@@ -431,7 +431,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/5a9c35e9ba1bb5c54a0001ac">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/SumOfTwoIntegers.java">
               Sum of Two Integers
             </a>
           </td>
@@ -445,7 +445,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/CountingDuplicates.java">
               Counting Duplicates
             </a>
           </td>
@@ -459,7 +459,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/58fa9898dfec0ef150000014">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/DudeMyComputerCannotCount!.java">
               Dude, my computer cannot count!
             </a>
           </td>
@@ -473,7 +473,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/54da5a58ea159efa38000836">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/FindTheOddInt.java">
               Find the odd int
             </a>
           </td>
@@ -487,7 +487,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/54b724efac3d5402db00065e">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/DecodeTheMorseCode.java">
               Decode the Morse code
             </a>
           </td>
@@ -501,7 +501,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/517abf86da9663f1d2000003">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/ConvertStringToCamelCase.java">
               Convert string to camel case
             </a>
           </td>
@@ -515,7 +515,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/5583d268479559400d000064">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/BinaryToTextASCIIConversion.java">
               Binary to Text (ASCII) Conversion
             </a>
           </td>
@@ -529,7 +529,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/51b62bf6a9c58071c600001b">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/RomanNumeralsEncoder.java">
               Roman Numerals Encoder
             </a>
           </td>
@@ -543,7 +543,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/525f50e3b73515a6db000b83">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/CreatePhoneNumber.java">
               Create Phone Number
             </a>
           </td>
@@ -557,7 +557,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/5262119038c0985a5b00029f">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/IsAnumberPrime.java">
               Is a number prime?
             </a>
           </td>
@@ -571,7 +571,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/5277c8a221e209d3f6000b56">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/ValidBraces.java">
               Valid Braces
             </a>
           </td>
@@ -585,7 +585,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/541c8630095125aba6000c00">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/SumOfDigitsDigitalRoot.java">
               Sum of Digits / Digital Root
             </a>
           </td>
@@ -599,7 +599,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/545cedaa9943f7fe7b000048">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/DetectPangram.java">
               Detect Pangram
             </a>
           </td>
@@ -613,7 +613,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/514b92a657cdc65150000006">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/Multiples.java">
               Multiples of 3 or 5
             </a>
           </td>
@@ -627,7 +627,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/55c04b4cc56a697bb0000048">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/Scramblies.java">
               Scramblies
             </a>
           </td>
@@ -641,7 +641,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/5541f58a944b85ce6d00006a">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/ProductOfConsecutiveFibNumbers.java">
               Product of consecutive Fib numbers
             </a>
           </td>
@@ -655,7 +655,7 @@ export default function CodeWarsJava() {
             </a>
           </td>
           <td>
-            <a href="https://www.codewars.com/kata/52e88b39ffb6ac53a400022e">
+            <a href="https://github.com/Valerio-boi/Codewars-java/blob/master/Kata/int32toIPv4.java">
               int32 to IPv4
             </a>
           </td>

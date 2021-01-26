@@ -7,7 +7,7 @@ import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 
 const APIKEY = "4175977b";
-const APIURL = "http://www.omdbapi.com";
+const APIURL = "https://cors-anywhere.herokuapp.com/http://www.omdbapi.com";
 
 class mainMyMovies extends Component {
   constructor(props) {

@@ -3,6 +3,8 @@ import qrCode from "../../img/qrCode.jpg";
 import github from "../../img/octocat.png";
 import linkedin from "../../img/linkedin.png";
 import React, { useState } from "react";
+import pdf from '../../pdf/CvValerioBoi.pdf'
+
 
 export default function LinkLogo() {
   const [hovered, setHovered] = useState(false);
@@ -12,7 +14,7 @@ export default function LinkLogo() {
 
   return (
     <>
-      <a href="principalApp\pdf\CvValerioBoi.pdf" download>
+      <a href={pdf} download>
         <img
           src={curriculum}
           alt="curriculum"
@@ -69,6 +71,7 @@ export default function LinkLogo() {
             addingRight: "18px",
             transform: `${hoveredLk ? "scale(1.2,1.2)" : "scale(1,1)"}`,
             transition: `${hoveredLk ? "0.5s" : "0.5s;"}`,
+            
           }}
         />
       </a>
