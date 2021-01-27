@@ -6,7 +6,7 @@ import React, { useState } from "react";
 import pdf from '../../pdf/CvValerioBoi.pdf'
 
 
-export default function LinkLogo() {
+export default function LinkLogo(props) {
   const [hovered, setHovered] = useState(false);
   const [hoveredCv, setHoveredCv] = useState(false);
   const [hoveredGit, setHoveredGit] = useState(false);
@@ -18,7 +18,7 @@ export default function LinkLogo() {
         <img
           src={curriculum}
           alt="curriculum"
-          width="120px"
+          width={props.size < 1168 ? "70px" :  "120px"}
           onMouseOver={() => setHoveredCv(true)}
           onMouseLeave={() => setHoveredCv(false)}
           style={{
@@ -32,7 +32,7 @@ export default function LinkLogo() {
       <img
         src={qrCode}
         alt="qrCode"
-        width="120px"
+        width={props.size < 1168 ? "70px" :  "120px"}
         onMouseOver={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
         style={{
@@ -46,7 +46,7 @@ export default function LinkLogo() {
         <img
           src={github}
           alt="qrCode"
-          width="150px"
+          width={props.size < 1168 ? "90px" :  "150px"}
           onMouseOver={() => setHoveredGit(true)}
           onMouseLeave={() => setHoveredGit(false)}
           style={{
@@ -64,7 +64,7 @@ export default function LinkLogo() {
         <img
           src={linkedin}
           alt="linkedin"
-          width="120px"
+          width={props.size < 1168 ? "60px" :  "120px"}
           onMouseOver={() => setHoveredCvLk(true)}
           onMouseLeave={() => setHoveredCvLk(false)}
           style={{

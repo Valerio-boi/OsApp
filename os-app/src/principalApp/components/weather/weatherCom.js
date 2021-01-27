@@ -11,30 +11,30 @@ import Progress from "./ProgressBar";
 import Alert from "react-bootstrap/Alert";
 
 export default function Weather(props) {
-  const [weather, setWeather] = useState("");
+  const [weather, setWeather] = useState(props.weather);
   const [citta, setCitta] = useState("Roma");
 
   return (
     <div>
       <h1 style={{ textAlign: "center" }}>Meteo italia</h1>
       <br />
-      {props.weather && (
+      {weather && (
         <Container>
           <br />
           <Row md={4}>
             <Col style={{ textAlign: "-webkit-center" }}>
               <div style={{ width: "180px" }}>
                 <h4>Umidita</h4>
-                <Progress umidita={props.weather.main.humidity} />
+                <Progress umidita={weather.main.humidity} />
                 <br />
                 <h4>Nuvole</h4>
-                <Progress umidita={props.weather.clouds.all} />
+                <Progress umidita={weather.clouds.all} />
               </div>
             </Col>
             <Col style={{ textAlign: "-webkit-center" }}>
               <h4>Temperatura</h4>
               <br />
-              <Termometro temp={props.weather.main.temp} />
+              <Termometro temp={weather.main.temp} />
               <br />
             </Col>
             <Col style={{ textAlign: "-webkit-center" }}>
@@ -50,7 +50,7 @@ export default function Weather(props) {
                     }}
                     src={
                       "http://openweathermap.org/img/wn/" +
-                      props.weather.weather[0].icon +
+                      weather.weather[0].icon +
                       "@2x.png"
                     }
                   />
@@ -68,34 +68,34 @@ export default function Weather(props) {
                       <td>
                         <strong>Citta:</strong>
                       </td>
-                      <td>{props.weather.name}</td>
+                      <td>{weather.name}</td>
                     </tr>
                     <tr>
                       <td>
                         <strong>Visibilita:</strong>
                       </td>
-                      <td>{Math.round(props.weather.visibility / 1000)} km</td>
+                      <td>{Math.round(weather.visibility / 1000)} km</td>
                     </tr>
                     <tr>
                       <td>
                         <strong>Nazione:</strong>
                       </td>
-                      <td>{props.weather.sys.country}</td>
+                      <td>{weather.sys.country}</td>
                     </tr>
                     <tr>
                       <td>
                         <strong>Vento:</strong>
                       </td>
-                      <td>{props.weather.wind.speed} kph</td>
+                      <td>{weather.wind.speed} kph</td>
                     </tr>
                     <tr>
                       <td>
                         <strong>Alba:</strong>
                       </td>
                       <td>
-                        {new Date(props.weather.sys.sunrise * 1000).getHours()}:
+                        {new Date(weather.sys.sunrise * 1000).getHours()}:
                         {new Date(
-                          props.weather.sys.sunrise * 1000
+                          weather.sys.sunrise * 1000
                         ).getMinutes()}
                       </td>
                     </tr>
@@ -104,21 +104,21 @@ export default function Weather(props) {
                         <strong>Tramonto:</strong>
                       </td>
                       <td>
-                        {new Date(props.weather.sys.sunset * 1000).getHours()}:
-                        {new Date(props.weather.sys.sunset * 1000).getMinutes()}
+                        {new Date(weather.sys.sunset * 1000).getHours()}:
+                        {new Date(weather.sys.sunset * 1000).getMinutes()}
                       </td>
                     </tr>
                     <tr>
                       <td>
                         <strong>Max:</strong>
                       </td>
-                      <td>{Math.round(props.weather.main.temp_max)} °C</td>
+                      <td>{Math.round(weather.main.temp_max)} °C</td>
                     </tr>
                     <tr>
                       <td>
                         <strong>Min:</strong>
                       </td>
-                      <td>{Math.round(props.weather.main.temp_min)} °C</td>
+                      <td>{Math.round(weather.main.temp_min)} °C</td>
                     </tr>
                   </tbody>
                 </Table>

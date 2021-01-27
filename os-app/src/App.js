@@ -13,6 +13,10 @@ function App() {
 
   const [weather, setWeather] = useState({});
   const [news, setNews] = useState([]);
+  const [size, setSize] = useState(window.innerWidth);
+  const updateSize = () => {
+    setSize(window.innerWidth)
+  }
 
   useEffect(() => {
     fetch(urlWeather)
@@ -22,18 +26,20 @@ function App() {
     fetch(urlNews)
       .then((res) => res.json())
       .then((res) => setNews(res.articles));
-    console.log(news);
-  }, []);
+    window.addEventListener('resize', updateSize);
+  },[]);
 
+  console.log(window.innerWidth);
   console.log(weather);
   return (
     <div className="root">
       <Grid
         timeline={<TimeLine />}
-        link={<LinkLogo />}
+        link={<LinkLogo  size ={size}/>}
         clock={<Clock />}
         weather={weather}
         news={news}
+        dimesion = {size}
       />
     </div>
   );
